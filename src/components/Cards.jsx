@@ -6,7 +6,6 @@ const Cards = () => {
   const [view, setView] = useState([]);
 
   const addToCartHandler = () => {
-    console.log("Add to card");
     toast.success("Item Added in Cart", {
       position: toast.POSITION.TOP_CENTER,
     });
